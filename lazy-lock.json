@@ -1,6 +1,8 @@
 {
+  "barbar.nvim": { "branch": "master", "commit": "d181f2cfd4b828f9c6f1e10e69c68241de59f54f" },
   "kanagawa.nvim": { "branch": "master", "commit": "fe5b2c9e2549862c3dc3f3c8e9cf7ddece0f40c2" },
   "lazy.nvim": { "branch": "main", "commit": "bef521ac89c8d423f9d092e37b58e8af0c099309" },
+  "lexima.vim": { "branch": "master", "commit": "5513d686801993b40c55baa65602f79cd3cf3c77" },
   "nvim-tree.lua": { "branch": "master", "commit": "2086e564c4d23fea714e8a6d63b881e551af2f41" },
   "nvim-web-devicons": { "branch": "master", "commit": "c0cfc1738361b5da1cd0a962dd6f774cc444f856" }
 }
