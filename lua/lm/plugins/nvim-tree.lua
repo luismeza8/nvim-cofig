@@ -17,12 +17,6 @@ return {
         indent_markers = {
           enable = true,
         },
-        icons = {
-          glyphs = {
-            folder = {
-            },
-          },
-        },
       },
       -- disable window_picker for
       -- explorer to work well with

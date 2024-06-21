@@ -17,7 +17,7 @@ return {
         Outline = {event = 'BufWinLeave', text = 'symbols-outline', align = 'right'},
       },
     })
-    
+
     -- Move to previous/next
     map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
     map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
