@@ -1,6 +1,6 @@
 return {
   "nvim-tree/nvim-tree.lua",
-  config = function() 
+  config = function()
     local nvimtree = require("nvim-tree")
 
     -- recommended settings from nvim-tree documentation
@@ -9,8 +9,9 @@ return {
 
     nvimtree.setup({
       view = {
+        side = 'left',
         width = 40,
-        relativenumber = true,
+        relativenumber = false,
       },
       -- change folder arrow icons
       renderer = {
