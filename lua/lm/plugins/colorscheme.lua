@@ -3,12 +3,14 @@ return {
   priority = 1000,
   config = function()
     require('kanagawa').setup({
-      theme = "dragon",              -- Load "wave" theme when 'background' option is not set
-      background = {               -- map the value of 'background' option to a theme
-          dark = "dragon",           -- try "dragon" !
+      theme = "dragon",
+      background = {
+          dark = "dragon",
           light = "lotus"
         },
     })
     vim.cmd([[colorscheme kanagawa]])
+    vim.cmd([[highlight SignColumn guibg=#181616]])
+    vim.cmd([[hi LineNr guibg=#181616]])
   end,
 }
