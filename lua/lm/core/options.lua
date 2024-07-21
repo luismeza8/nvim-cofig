@@ -8,3 +8,4 @@ vim.wo.wrap = false
 vim.opt.signcolumn = "yes"
 
 vim.keymap.set("n", "<leader>gq", ":noh<CR>", { desc = "Clear search" })
+vim.keymap.set("n", "<leader>rv", ":lua vim.lsp.buf.rename()<CR>")
