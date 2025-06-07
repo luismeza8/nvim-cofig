@@ -1,7 +1,7 @@
 return {
   require("mason").setup(),
   require("mason-lspconfig").setup({
-    ensure_installed = { "tsserver", "pyright", "lua_ls", "emmet_ls", "html", "cssls", "tailwindcss" }
+    ensure_installed = { "ts_ls", "pyright", "lua_ls", "emmet_ls", "html", "cssls", "tailwindcss" }
   }),
 
   require("lspconfig").pyright.setup {},
@@ -30,5 +30,5 @@ return {
   require("lspconfig").html.setup {},
   require("lspconfig").cssls.setup {},
   require("lspconfig").tailwindcss.setup {},
-  require("lspconfig").tsserver.setup {},
+  require("lspconfig").ts_ls.setup {},
 }
